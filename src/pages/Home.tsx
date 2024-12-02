@@ -41,8 +41,8 @@ const Home: React.FC = () => {
             setError(null); 
             const fetchedAddress = await getAddressByCep(cep);
             setAddress(fetchedAddress);
-        } catch (err) {
-            setError(error);
+        } catch (err : any) {
+            setError(err.message);
             setAddress(null);
         }
     };
