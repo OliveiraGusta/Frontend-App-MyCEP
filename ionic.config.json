@@ -1,0 +1,7 @@
+{
+  "name": "appCEP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
